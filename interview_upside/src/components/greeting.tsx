@@ -1,9 +1,10 @@
 import { Fragment } from "react"
+import "../css/style.css"
 
 export default function Greet(){
     return(
         <Fragment>
-            <img src="photo1634156874.jpeg" alt = "my avatar" />
+            <img className = "avatar" src="" alt = "my avatar" />
         </Fragment>
     )
 }
