@@ -3,6 +3,7 @@ import PersonalProject from "./components/pp_redirect"
 import Role from "./components/Dev_role"
 import Motivation from "./components/motivation";
 import Impact from "./components/impact";
+import Greet from "./components/greeting";
 
 export default function App(){
     return(
@@ -24,6 +25,11 @@ export default function App(){
             </nav>
             <main>
                 <Switch>
+                <Route exact path = "/">
+                        <section>
+                            <Greet />
+                         </section> 
+                    </Route>
                     <Route exact path = "/pp">
                         <section>
                             <PersonalProject />

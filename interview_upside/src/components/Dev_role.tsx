@@ -8,14 +8,16 @@ const ways = ["Teamwork and collaboration", "Constant learning", "Staying on top
 
     return (
         <Fragment>
-            <h2>How I see the role of developer in delivering digital services</h2>
+            <h1 className="question">How I see the role of developer in delivering digital services</h1>
             <section className ="show">
                 <div className="lefthalf">
-                    <h3>What one does</h3>
+                    <h2>Building software</h2>
+                    <p>______________</p>
                     {actions.map((action) => <h4>{action}</h4>)}
                 </div>
                 <div className="righthalf">
-                    <h3>How one does it</h3>
+                    <h2>How one does it</h2>
+                    <p>______________</p>
                     {ways.map((way) => <h4>{way}</h4>)}
                 </div>
             </section>
