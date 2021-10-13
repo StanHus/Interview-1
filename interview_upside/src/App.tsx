@@ -1,6 +1,6 @@
-import { Fragment } from "react"
 import {BrowserRouter, Link, Switch, Route} from "react-router-dom";
 import Personal_project from "./components/pp_redirect"
+import Role from "./components/Dev_role"
 
 export default function App(){
     return(
@@ -17,27 +17,15 @@ export default function App(){
             <main>
                 <Switch>
                     <Route exact path = "/pp">
-                    <section>
-                        <Personal_project />
-                      </section> 
+                        <section>
+                            <Personal_project />
+                         </section> 
                     </Route>
-                    {/* <Route exact path = "/progress">
+                    <Route exact path = "/role">
                         <section>
-                            <ListProgress />
-                            <Footer />
-                        </section>
+                            <Role />
+                         </section> 
                     </Route>
-                    <Route exact path = "/analysis">
-                        <section>
-                            <Analysis />
-                            <Footer />
-                        </section>
-                    </Route> */}
-                    {/* <Route exact path = "/userPage">
-                        <section>
-                            <SignUp />
-                        </section>
-                    </Route> */}
                 </Switch>
             </main>
          </BrowserRouter>
