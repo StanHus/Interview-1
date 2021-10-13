@@ -3,8 +3,8 @@ import "../css/style.css"
 
 export default function Role(){
 
-const actions = ["Accessible and readable", "Reusable and adaptable", "Sustainable", "Tailored to the client's needs"]
-const ways = ["Teamwork and collaboration", "Constant learning", "Staying on top of the digital trends"]
+const actions = ["______________", "Accessible and readable", "Reusable and adaptable", "Sustainable", "Tailored to the client's needs", "______________"]
+const ways = ["______________", "Teamwork and collaboration", "Constant learning", "Staying on top of the digital trends", "______________"]
 
     return (
         <Fragment>
@@ -12,12 +12,10 @@ const ways = ["Teamwork and collaboration", "Constant learning", "Staying on top
             <section className ="show">
                 <div className="lefthalf">
                     <h2>Building software</h2>
-                    <p>______________</p>
                     {actions.map((action) => <h4>{action}</h4>)}
                 </div>
                 <div className="righthalf">
                     <h2>How one does it</h2>
-                    <p>______________</p>
                     {ways.map((way) => <h4>{way}</h4>)}
                 </div>
             </section>

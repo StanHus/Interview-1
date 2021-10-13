@@ -9,7 +9,7 @@ export default function App(){
     return(
         <>
          <BrowserRouter>
-            <nav>
+            <nav className="buttons">
                     <button className="switchButton"> 
                         <Link className = "navlink" to="/pp">Personal Project</Link>
                     </button>  
