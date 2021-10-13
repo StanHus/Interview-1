@@ -1,6 +1,8 @@
 import {BrowserRouter, Link, Switch, Route} from "react-router-dom";
-import Personal_project from "./components/pp_redirect"
+import PersonalProject from "./components/pp_redirect"
 import Role from "./components/Dev_role"
+import Motivation from "./components/motivation";
+import Impact from "./components/impact";
 
 export default function App(){
     return(
@@ -12,18 +14,34 @@ export default function App(){
                     </button>  
                     <button className="switchButton"> 
                         <Link className = "navlink" to="/role">Developer Role</Link>
-                    </button>                          
+                    </button>
+                    <button className="switchButton"> 
+                        <Link className = "navlink" to="/motivation">Motivation</Link>
+                    </button>
+                    <button className="switchButton"> 
+                        <Link className = "navlink" to="/impact">Social Impact</Link>
+                    </button>                            
             </nav>
             <main>
                 <Switch>
                     <Route exact path = "/pp">
                         <section>
-                            <Personal_project />
+                            <PersonalProject />
                          </section> 
                     </Route>
                     <Route exact path = "/role">
                         <section>
                             <Role />
+                         </section> 
+                    </Route>
+                    <Route exact path = "/motivation">
+                        <section>
+                            <Motivation />
+                         </section> 
+                    </Route>
+                    <Route exact path = "/impact">
+                        <section>
+                            <Impact />
                          </section> 
                     </Route>
                 </Switch>

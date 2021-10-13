@@ -1,0 +1,25 @@
+body{
+    margin: 0
+}
+
+.show{
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap
+    
+}
+
+.lefthalf{
+    border: 1px solid black;
+    margin-left: 7.5%;
+    margin-right:2.5%;
+    width: 40%;
+    text-align: center
+}
+
+.righthalf{
+    border: 1px solid black;
+    margin-left:2.5%;
+    width: 40%;
+    text-align: center
+}
