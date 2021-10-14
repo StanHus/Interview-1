@@ -11,7 +11,7 @@ const ways = ["______________", "Teamwork and collaboration", "Constant learning
             <h1 className="question">How I see the role of developer in delivering digital services</h1>
             <section className ="show">
                 <div className="lefthalf">
-                    <h2>Building software</h2>
+                    <h2>What one does</h2>
                     {actions.map((action) => <h4>{action}</h4>)}
                 </div>
                 <div className="righthalf">
