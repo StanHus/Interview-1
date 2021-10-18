@@ -3,7 +3,7 @@ import "../css/style.css"
 
 export default function Motivation(){
 
-    const motivations = ["______________", "New Horizons", "New Technologies", "Adding Value", "______________"]
+    const motivations = ["______________", "Pursuit of my best self", "Seeing my work and its impact", "Adding Value", "______________"]
 
     return (
         <Fragment>

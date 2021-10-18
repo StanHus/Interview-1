@@ -2,7 +2,7 @@ import { Fragment } from "react";
 import "../css/style.css"
 
 export default function Impact (){
-const meanings = ["______________", "Narrowing the digital divide", "Making a difference", "Being a digital inclusion ambassador", "Distributing opportunities and innovation (open-source coding)", "______________"]
+const meanings = ["______________", "Making a difference", "Being a digital inclusion ambassador", "Distributing opportunities and innovation (open-source coding)", "Narrowing the digital divide", "______________"]
 
     return(
         <Fragment>
