@@ -10,9 +10,9 @@ export default function App(){
         <>
          <BrowserRouter>
             <nav className="buttons">
-                    <button className="switchButton"> 
+                    {/* <button className="switchButton"> 
                         <Link className = "navlink" to="/pp">Personal Project</Link>
-                    </button>  
+                    </button>   */}
                     <button className="switchButton"> 
                         <Link className = "navlink" to="/role">Developer Role</Link>
                     </button>
