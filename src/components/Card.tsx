@@ -30,7 +30,7 @@ export default function Project({ title, text, points, image, link }: IProps) {
               <i>{text}</i>
             </Card.Text>
             <Card.Text>
-              Tools Used: <strong>{points}</strong>
+              Technologies: <strong>{points}</strong>
             </Card.Text>
           </Card.Body>
           <Card.Img

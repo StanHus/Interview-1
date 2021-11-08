@@ -25,14 +25,14 @@ export default function Games() {
           <Project
             title="Tic-Tac-Toe"
             text="Game vs computer. For now, its my own simple TS algorithm behind computer moves. Planning to make the computer smarter"
-            points="CSS, TS, Testing"
+            points="React TS, Testing"
             image="https://i.ibb.co/cx4vYWJ/image-2021-11-08-172045.png"
             link="https://tic-tac-toe-stan.netlify.app"
           />
           <Project
             title="Quiz Game"
             text="Game template for now (with dummy questions). Needs impoving the scoring system and the countdown mechanics"
-            points="CSS, TS, Databases"
+            points="React, TS, Databases"
             image="https://i.ibb.co/kSmbzpZ/Quiz.png"
             link="https://family-quiz.netlify.app"
           />

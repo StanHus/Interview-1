@@ -20,7 +20,7 @@ export default function Extras() {
           <Project
             title="TV-shows displayer"
             text="First app ever, Sep 2021. Simplest converter of JSON data into a table + search and sort"
-            points="APIs, TS"
+            points="React, APIs, TS"
             image="https://i.ibb.co/QHQqDQd/TV-shows.png"
             link="https://tv-shows-stan.netlify.app"
           />
@@ -35,7 +35,7 @@ export default function Extras() {
           <Project
             title="Link Shortner"
             text="One of my first full-stack projects, developed in a team of 2"
-            points="PostreSQL, TS"
+            points="React, PostreSQL, TS"
             image="https://i.ibb.co/XYGpDRk/linkshortner.png"
             link="https://brushland-link-shortener.netlify.app"
           />

@@ -11,14 +11,14 @@ export default function Applications() {
           <Project
             title="Training Routine"
             text="App for tracking training, able to accept data, analyse it, provide insights, and illustrate the findings. Built-in authentication using Firebase"
-            points="Authentication, PostreSQL, TS"
+            points="React, Auth, PostreSQL, TS"
             image="https://i.ibb.co/ZfkMLMP/training.png"
             link="https://training-routine.netlify.app"
           />
           <Project
             title="CRUK Campaign"
             text="The result of a 1-working day input as a technical take-home test. Features a forum and a quiz. Needs improvement in CSS"
-            points="PostreSQL, TS"
+            points="React, PostreSQL, TS"
             image="https://i.ibb.co/s3HYdFg/cruk.png"
             link="https://cruk-campaign.netlify.app"
           />
