@@ -106,7 +106,7 @@ body {
 
 .card {
   text-align: center;
-  background-color: grey;
+  background-color: transparent;
   font-size: large;
   border-radius: 10px;
 }

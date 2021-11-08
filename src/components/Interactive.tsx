@@ -9,6 +9,20 @@ export default function Games() {
       <section className="cards">
         <Row xs={1} md={2} className="g-4">
           <Project
+            title="Car Ride Game"
+            text="Gas pedal (Shift) to the floor and lets go! Cool little game with multiple common racing game mechanics"
+            points="JS, Gaming, OpenProcessing"
+            image="https://i.ibb.co/K2PjB4j/riding.png"
+            link="https://openprocessing.org/sketch/1344210"
+          />
+          <Project
+            title="Connecting Lines"
+            text="Simple cool interactive interface, which can be used as a background or animation"
+            points="JS, Animation"
+            image="https://i.ibb.co/VC1s0Wv/lines.png"
+            link="https://openprocessing.org/sketch/1344339"
+          />
+          <Project
             title="Tic-Tac-Toe"
             text="Game vs computer. For now, its my own simple TS algorithm behind computer moves. Planning to make the computer smarter"
             points="CSS, TS, Testing"

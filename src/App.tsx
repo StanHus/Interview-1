@@ -17,12 +17,12 @@ export default function App() {
           </button>
           <button className="switchButton">
             <Link className="navlink" to="/complex">
-              Complex
+              Full-Stack
             </Link>
           </button>
           <button className="switchButton">
             <Link className="navlink" to="/extra">
-              Additional
+              Extras
             </Link>
           </button>
         </nav>
