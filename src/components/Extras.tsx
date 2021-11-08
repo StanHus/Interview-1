@@ -12,15 +12,14 @@ export default function Extras() {
         <Row xs={1} md={2} className="g-4">
           <Project
             title="Website Crawler"
-            text="An app for fully crawling any specific website without leaving the domain"
+            text="An app for fully crawling any specific website without going outside the domain"
             points="Python"
             image="https://i.ibb.co/F0f98tj/crawler.png"
             link="https://github.com/StanHus/Python_Web_Crawler"
           />
-
           <Project
             title="TV-shows displayer"
-            text="First app ever, Sep 2021. Simplest converter of JSON data into a table"
+            text="First app ever, Sep 2021. Simplest converter of JSON data into a table + search and sort"
             points="JSON, TS"
             image="https://i.ibb.co/QHQqDQd/TV-shows.png"
             link="https://tv-shows-stan.netlify.app"

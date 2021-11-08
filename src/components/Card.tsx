@@ -22,10 +22,7 @@ export default function Project({ title, text, points, image, link }: IProps) {
       <Col>
         <Card className="card" text="light" bg="secondary" border="secondary">
           <Card.Body>
-            <Card.Title
-              style={titleStyle}
-              onClick={() => (window.location.href = link)}
-            >
+            <Card.Title style={titleStyle} onClick={() => window.open(link)}>
               {title}
               {" ->"}
             </Card.Title>
@@ -37,7 +34,7 @@ export default function Project({ title, text, points, image, link }: IProps) {
             </Card.Text>
           </Card.Body>
           <Card.Img
-            onClick={() => (window.location.href = link)}
+            onClick={() => window.open(link)}
             className="image"
             variant="bottom"
             src={image}
