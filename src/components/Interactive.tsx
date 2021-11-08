@@ -10,17 +10,17 @@ export default function Games() {
         <Row xs={1} md={2} className="g-4">
           <Project
             title="Tic-Tac-Toe"
-            text="Working on making the computer smarter "
-            points="css, ts, testing"
-            image="https://www.digital-photo-secrets.com/images/lotus_low.jpg"
-            link="#"
+            text="Game vs computer. For now, its my own simple TS algorithm behind computer moves. Planning to make the computer smarter"
+            points="CSS, TS, Testing"
+            image="https://i.ibb.co/cx4vYWJ/image-2021-11-08-172045.png"
+            link="https://tic-tac-toe-stan.netlify.app"
           />
           <Project
             title="Quiz Game"
-            text="Impoving the scoring system and the countdown mechanics"
-            points="css, ts, databases"
-            image="https://www.digital-photo-secrets.com/images/lotus_low.jpg"
-            link="#"
+            text="Game template for now (with dummy questions). Needs impoving the scoring system and the countdown mechanics"
+            points="CSS, TS, Databases"
+            image="https://i.ibb.co/kSmbzpZ/Quiz.png"
+            link="https://family-quiz.netlify.app"
           />
         </Row>
       </section>

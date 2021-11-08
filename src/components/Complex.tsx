@@ -12,15 +12,15 @@ export default function Applications() {
             title="Training Routine"
             text="App for tracking training, able to accept data, analyse it, provide insights, and illustrate the findings. Built-in authentication using Firebase"
             points="Authentication, PostreSQL, TS"
-            image="https://www.digital-photo-secrets.com/images/lotus_low.jpg"
-            link="#"
+            image="https://i.ibb.co/ZfkMLMP/training.png"
+            link="https://training-routine.netlify.app"
           />
           <Project
             title="CRUK Campaign"
-            text="The result of a 1-working day input. Features a forum and a quiz. Needs improvement in CSS"
+            text="The result of a 1-working day input as a technical take-home test. Features a forum and a quiz. Needs improvement in CSS"
             points="PostreSQL, TS"
-            image="https://www.digital-photo-secrets.com/images/lotus_low.jpg"
-            link="#"
+            image="https://i.ibb.co/s3HYdFg/cruk.png"
+            link="https://cruk-campaign.netlify.app"
           />
         </Row>
       </section>

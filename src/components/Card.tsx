@@ -1,5 +1,4 @@
 import { Card, Col } from "react-bootstrap";
-import { Link } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.min.css";
 
 interface IProps {
@@ -14,6 +13,7 @@ const titleStyle = {
   fontSize: "30px",
   color: "#fceadd",
   textDecoration: "none",
+  cursor: "pointer",
 };
 
 export default function Project({ title, text, points, image, link }: IProps) {
@@ -22,14 +22,15 @@ export default function Project({ title, text, points, image, link }: IProps) {
       <Col>
         <Card className="card" text="light" bg="secondary" border="secondary">
           <Card.Body>
-            <Card.Title>
-              <Link style={titleStyle} to={link}>
-                {title}
-                {" ->"}
-              </Link>
+            <Card.Title
+              style={titleStyle}
+              onClick={() => (window.location.href = link)}
+            >
+              {title}
+              {" ->"}
             </Card.Title>
             <Card.Text style={{ fontSize: "15px" }}>
-              Description: <i>{text}</i>
+              <i>{text}</i>
             </Card.Text>
             <Card.Text>
               Tools Used: <strong>{points}</strong>
@@ -40,6 +41,7 @@ export default function Project({ title, text, points, image, link }: IProps) {
             className="image"
             variant="bottom"
             src={image}
+            style={{ cursor: "pointer" }}
           />
         </Card>
       </Col>
