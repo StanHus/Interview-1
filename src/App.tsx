@@ -1,12 +1,13 @@
 import { BrowserRouter, Link, Switch, Route } from "react-router-dom";
-import Complex from "./components/Complex";
+import Applications from "./components/Complex";
 import Greet from "./components/greeting";
 import FrontEnd from "./components/Interactive";
+import Extras from "./components/Extras";
 import "./css/style.css";
 
 export default function App() {
   return (
-    <>
+    <div className="body">
       <BrowserRouter>
         <nav className="buttons">
           <button className="switchButton">
@@ -34,11 +35,14 @@ export default function App() {
               <FrontEnd />
             </Route>
             <Route exact path="/complex">
-              <Complex />
+              <Applications />
+            </Route>
+            <Route exact path="/extra">
+              <Extras />
             </Route>
           </Switch>
         </main>
       </BrowserRouter>
-    </>
+    </div>
   );
 }

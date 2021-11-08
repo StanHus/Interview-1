@@ -1,48 +1,28 @@
-body {
-  margin: 0;
+.body {
   background-color: #deba9d;
-  height: 100 vh;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
 }
 
-.show {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  height: 80%;
-}
-
-.lefthalf {
-  margin-left: 7.5%;
-  margin-right: 2.5%;
-  width: 40%;
-  text-align: center;
-  background-color: #f2e1c1;
-  border: 10px double #bb8760;
-  border-radius: 35px;
-  color: #480e0e;
-  text-align: center;
-  min-height: 80%;
-  font-style: canela;
-}
-
-.righthalf {
-  background-color: #f2e1c1;
-  border: 10px double #bb8760;
-  border-radius: 35px;
-  color: #480e0e;
-  margin-left: 2.5%;
-  width: 40%;
-  text-align: center;
-  min-height: 80%;
-  font-style: canela;
+html,
+body {
+  background-color: #deba9d;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
 }
 
 .question {
   text-align: center;
   font-size: xx-large;
   color: #480e0e;
-  margin-top: 5%;
-  margin-bottom: 6%;
+  margin-top: 4%;
+  margin-bottom: 2%;
 }
 
 .switchButton {
@@ -53,10 +33,10 @@ body {
 }
 
 .buttons {
-  margin-top: 3%;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
+  margin-bottom: 2%;
 }
 
 .navlink {
@@ -115,6 +95,24 @@ body {
 }
 
 .cards {
-  margin: 8% 10% 0 10%;
-  width: 80%;
+  margin: 2% 15% 2% 15%;
+  padding: 1%;
+  width: 70%;
+}
+
+.card {
+  text-align: center;
+  background-color: grey;
+  font-size: large;
+  border-radius: 10px;
+}
+
+.image {
+  border-radius: 10px;
+  max-height: 40vh;
+  width: auto;
+}
+
+.title {
+  font-size: 40px;
 }

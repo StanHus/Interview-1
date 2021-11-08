@@ -1,49 +1,29 @@
 import "../css/style.css";
-import { Card, Row, Col } from "react-bootstrap";
-import "bootstrap/dist/css/bootstrap.min.css";
+import { Row } from "react-bootstrap";
+import Project from "./Card";
 
 export default function Games() {
   return (
     <div>
+      <h1 className="question">Games and other interactive apps</h1>
       <section className="cards">
         <Row xs={1} md={2} className="g-4">
-          <Col>
-            <Card>
-              <Card.Img variant="top" src="holder.js/100px160" />
-              <Card.Body>
-                <Card.Title>Card title</Card.Title>
-                <Card.Text>
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-          <Col>
-            <Card>
-              <Card.Img
-                variant="top"
-                src=""
-              />
-              <Card.Body>
-                <Card.Title>Card title</Card.Title>
-                <Card.Text>
-                  This is a longer card with supporting text below as a natural
-                  lead-in to additional content. This content is a little bit
-                  longer.
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
+          <Project
+            title="Tic-Tac-Toe"
+            text="Working on making the computer smarter "
+            points="css, ts, testing"
+            image="https://www.digital-photo-secrets.com/images/lotus_low.jpg"
+            link="#"
+          />
+          <Project
+            title="Quiz Game"
+            text="Impoving the scoring system and the countdown mechanics"
+            points="css, ts, databases"
+            image="https://www.digital-photo-secrets.com/images/lotus_low.jpg"
+            link="#"
+          />
         </Row>
       </section>
-      <h1 className="question">Games and other interactive apps</h1>
-      <h3 className="project">
-        <a className="pplink" href="https://training-routine.netlify.app">
-          Training Routine
-        </a>
-      </h3>
     </div>
   );
 }
