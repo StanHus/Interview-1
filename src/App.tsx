@@ -1,57 +1,44 @@
-import {BrowserRouter, Link, Switch, Route} from "react-router-dom";
-import PersonalProject from "./components/pp_redirect"
-import Role from "./components/Dev_role"
-import Motivation from "./components/motivation";
-import Impact from "./components/impact";
+import { BrowserRouter, Link, Switch, Route } from "react-router-dom";
+import Complex from "./components/Complex";
 import Greet from "./components/greeting";
+import FrontEnd from "./components/Interactive";
+import "./css/style.css";
 
-export default function App(){
-    return(
-        <>
-         <BrowserRouter>
-            <nav className="buttons">
-                    {/* <button className="switchButton"> 
-                        <Link className = "navlink" to="/pp">Personal Project</Link>
-                    </button>   */}
-                    <button className="switchButton"> 
-                        <Link className = "navlink" to="/role">Developer Role</Link>
-                    </button>
-                    <button className="switchButton"> 
-                        <Link className = "navlink" to="/motivation">Motivation</Link>
-                    </button>
-                    <button className="switchButton"> 
-                        <Link className = "navlink" to="/impact">Social Impact</Link>
-                    </button>                            
-            </nav>
-            <main>
-                <Switch>
-                <Route exact path = "/">
-                        <section>
-                            <Greet />
-                         </section> 
-                    </Route>
-                    <Route exact path = "/pp">
-                        <section>
-                            <PersonalProject />
-                         </section> 
-                    </Route>
-                    <Route exact path = "/role">
-                        <section>
-                            <Role />
-                         </section> 
-                    </Route>
-                    <Route exact path = "/motivation">
-                        <section>
-                            <Motivation />
-                         </section> 
-                    </Route>
-                    <Route exact path = "/impact">
-                        <section>
-                            <Impact />
-                         </section> 
-                    </Route>
-                </Switch>
-            </main>
-         </BrowserRouter>
-        </>
-)}
+export default function App() {
+  return (
+    <>
+      <BrowserRouter>
+        <nav className="buttons">
+          <button className="switchButton">
+            <Link className="navlink" to="/games">
+              Interactive
+            </Link>
+          </button>
+          <button className="switchButton">
+            <Link className="navlink" to="/complex">
+              Complex
+            </Link>
+          </button>
+          <button className="switchButton">
+            <Link className="navlink" to="/extra">
+              Additional
+            </Link>
+          </button>
+        </nav>
+        <main>
+          <Switch>
+            <Route exact path="/">
+              <Greet />
+            </Route>
+            <Route exact path="/games">
+              <FrontEnd />
+            </Route>
+            <Route exact path="/complex">
+              <Complex />
+            </Route>
+          </Switch>
+        </main>
+      </BrowserRouter>
+    </>
+  );
+}
