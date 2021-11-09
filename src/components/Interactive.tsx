@@ -5,22 +5,22 @@ import Project from "./Card";
 export default function Games() {
   return (
     <div>
-      <h1 className="question">Games and other interactive apps</h1>
+      <h1 className="question">Games and Interactive Sketches</h1>
       <section className="cards">
         <Row xs={1} md={2} className="g-4">
           <Project
-            title="Car Ride Game"
+            title="3D Car Game"
             text="Gas pedal (Shift) to the floor and lets go! Cool little game with multiple common racing game mechanics"
-            points="JS, Gaming, OpenProcessing"
+            points="JS, p5, OpenProcessing"
             image="https://i.ibb.co/K2PjB4j/riding.png"
             link="https://openprocessing.org/sketch/1344210"
           />
           <Project
-            title="Connecting Lines"
-            text="Simple cool interactive interface, which can be used as a background or animation"
-            points="JS, Animation"
-            image="https://i.ibb.co/VC1s0Wv/lines.png"
-            link="https://openprocessing.org/sketch/1344339"
+            title="3D Plane Game"
+            text="Change views, look around, flyyy. An interactive game, with multiple 3d features and fully working mechanics"
+            points="JS, p5, OpenProcessing"
+            image="https://i.ibb.co/WnVXqLr/image-2021-11-09-151915.png"
+            link="https://openprocessing.org/sketch/1345775"
           />
           <Project
             title="Tic-Tac-Toe"
