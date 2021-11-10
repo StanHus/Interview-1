@@ -16,6 +16,13 @@ export default function Extras() {
             link="https://github.com/StanHus/Python_Web_Crawler"
           />
           <Project
+            title="Portfolio Website"
+            text="The portfolio webiste you are looking at. Efficient use of React components and CSS"
+            points="React, TS, CSS"
+            image="https://i.ibb.co/dM1yVbK/image-2021-11-10-180227.png"
+            link="https://portfolio-stan.netlify.app"
+          />
+          <Project
             title="Connecting Lines"
             text="Simple cool interactive interface, which can be used as a background or animation"
             points="JS, Animation"
