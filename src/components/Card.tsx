@@ -7,16 +7,30 @@ interface IProps {
   points: string;
   image: string;
   link: string;
+  special?: boolean;
 }
 
-const titleStyle = {
-  fontSize: "30px",
-  color: "#fceadd",
-  textDecoration: "none",
-  cursor: "pointer",
-};
+export default function Project({
+  title,
+  text,
+  points,
+  image,
+  link,
+  special,
+}: IProps) {
+  let titleStyle = {
+    fontSize: "30px",
+    color: "#fceadd",
+    textDecoration: "none",
+    cursor: "pointer",
+    animation: "",
+  };
 
-export default function Project({ title, text, points, image, link }: IProps) {
+  if (special) {
+    titleStyle["animation"] = "color-change 2s infinite";
+    title = `★ ${title} ★`;
+  }
+
   return (
     <div>
       <Col>
@@ -24,7 +38,6 @@ export default function Project({ title, text, points, image, link }: IProps) {
           <Card.Body>
             <Card.Title style={titleStyle} onClick={() => window.open(link)}>
               {title}
-              {" ->"}
             </Card.Title>
             <Card.Text style={{ fontSize: "15px" }}>
               <i>{text}</i>

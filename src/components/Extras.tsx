@@ -36,13 +36,13 @@ export default function Extras() {
             image="https://i.ibb.co/QHQqDQd/TV-shows.png"
             link="https://tv-shows-stan.netlify.app"
           />
-          <Project
+          {/* <Project
             title="Link Shortner"
             text="One of my first full-stack projects, developed in a team of 2"
             points="React, PostreSQL, TS"
             image="https://i.ibb.co/XYGpDRk/linkshortner.png"
             link="https://brushland-link-shortener.netlify.app"
-          />
+          /> */}
         </Row>
       </section>
     </div>

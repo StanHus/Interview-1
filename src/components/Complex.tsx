@@ -14,6 +14,7 @@ export default function Applications() {
             points="React, Auth, PostreSQL, TS"
             image="https://i.ibb.co/ZfkMLMP/training.png"
             link="https://training-routine.netlify.app"
+            special={true}
           />
           <Project
             title="CRUK Campaign"
