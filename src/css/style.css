@@ -272,3 +272,20 @@ body {
 .flip-card p {
   font-size: 80%;
 }
+
+/*  Social Icons section start*/
+.socials {
+  display: flex;
+  flex-direction: column;
+  position: fixed;
+  right: 1%;
+  top: 35%;
+}
+
+.socicon {
+  width: auto;
+  height: 2.2rem;
+  margin: 0.4rem;
+}
+
+/*  Social Icons section end*/

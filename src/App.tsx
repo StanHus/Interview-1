@@ -7,7 +7,8 @@ import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
 import Mini from "./components/Body Pages/Mini";
 import Portfolios from "./components/Body Pages/Profiles";
 import Software from "./components/Body Pages/Software";
-import About from "./components/About Me/AboutMe";
+import About from "./components/About Me/Main_page";
+import Icons from "./components/Utils/Social_Icons";
 
 export default function App() {
   return (
@@ -15,19 +16,19 @@ export default function App() {
       <BrowserRouter>
         <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
           <Container>
-            <Navbar.Brand>Portfolio Website</Navbar.Brand>
+            <Navbar.Brand>Stanislav Huseletov</Navbar.Brand>
             <Navbar.Toggle aria-controls="responsive-navbar-nav" />
             <Navbar.Collapse id="responsive-navbar-nav">
               <Nav className="me-auto">
                 <Nav.Link href="/games">Interactive</Nav.Link>
                 <Nav.Link href="/complex">Full-Stack</Nav.Link>
                 <NavDropdown title="Extras" id="collasible-nav-dropdown">
-                  <NavDropdown.Item href="/mini">
-                    Mini-Projects
-                  </NavDropdown.Item>
                   <NavDropdown.Item href="/software">Software</NavDropdown.Item>
                   <NavDropdown.Item href="/portfolios">
                     Portfolios
+                  </NavDropdown.Item>
+                  <NavDropdown.Item href="/mini">
+                    Mini-Projects
                   </NavDropdown.Item>
                   <NavDropdown.Divider />
                   <NavDropdown.Item
@@ -45,6 +46,7 @@ export default function App() {
           </Container>
         </Navbar>
         <main>
+          <Icons />
           <Switch>
             <Route exact path="/">
               <Greet />

@@ -1,6 +1,6 @@
 import "../../css/style.css";
 import { Row } from "react-bootstrap";
-import Project from "../Card";
+import Project from "../Utils/Card";
 
 export default function Applications() {
   return (
