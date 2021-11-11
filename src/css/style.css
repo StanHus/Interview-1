@@ -176,10 +176,12 @@ body {
 
 /* Skills section */
 .skills {
-  max-width: 90%;
-  margin-left: 5%;
+  max-width: 75%;
+  margin-left: 12.5%;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
+  flex-flow: row;
+  flex-wrap: wrap;
   text-align: center;
   margin-top: 2.5rem;
 }
@@ -194,7 +196,8 @@ body {
 }
 
 .icon {
-  width: 11.875rem;
+  width: auto;
+  margin: 1%;
   height: 11.25rem;
 }
 /* Skills section ends */

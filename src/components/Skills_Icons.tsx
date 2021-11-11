@@ -26,37 +26,32 @@ export default function Icons() {
               className="icon icon-card"
             />
             <img
-              src="https://i.ibb.co/CbtkhXv/html5-icon-12117.png"
+              src="https://i.ibb.co/F610HFH/image.png"
               alt=""
               loading="lazy"
               className="icon icon-card"
             />
             <img
-              src="https://i.ibb.co/j5FHCQM/pngaaa-com-2507896.png"
+              src="https://i.ibb.co/LkVrL7B/image.png"
               alt=""
               loading="lazy"
               className="icon icon-card"
             />
             <img
-              src="https://i.ibb.co/j5FHCQM/pngaaa-com-2507896.png"
+              src="https://i.ibb.co/HpnVxPn/html.png"
+              alt=""
+              loading="lazy"
+              className="icon icon-card"
+            />
+
+            <img
+              src="https://i.ibb.co/1LCvFc8/css.png"
               alt=""
               loading="lazy"
               className="icon icon-card"
             />
             <img
-              src="https://i.ibb.co/j5FHCQM/pngaaa-com-2507896.png"
-              alt=""
-              loading="lazy"
-              className="icon icon-card"
-            />
-            <img
-              src="https://i.ibb.co/j5FHCQM/pngaaa-com-2507896.png"
-              alt=""
-              loading="lazy"
-              className="icon icon-card"
-            />
-            <img
-              src="https://i.ibb.co/j5FHCQM/pngaaa-com-2507896.png"
+              src="https://i.ibb.co/JsZwB8y/js.png"
               alt=""
               loading="lazy"
               className="icon icon-card"
