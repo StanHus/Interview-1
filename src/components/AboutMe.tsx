@@ -24,21 +24,11 @@ export default function About() {
       </section>
       <section className="more-about">
         <h2>More About Me</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis
-          nesciunt excepturi quos obcaecati incidunt voluptatem ipsam sunt
-          ipsum, autem deleniti cupiditate molestias quis unde quae totam porro
-          dicta iure animi inventore, veniam hic! Omnis nulla, delectus a
-          voluptatibus
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consequuntur
-          nostrum dolor minus, libero delectus praesentium perferendis
-        </p>
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero,
-          consequuntur labore? Ea totam voluptas amet!
-        </p>
+        <ul>
+          <li>I am an Economics Graduate from Univeersity of nottingham</li>
+          <li>I am a chess enthusiast</li>
+          <li>I am a runner</li>
+        </ul>
       </section>
       <h2 className="skill-header">My Top Skills</h2>
       <section className="skills" id="skills">
@@ -64,7 +54,6 @@ export default function About() {
               className="icon icon-card"
             />
           </div>
-
           <div className="second-set animate__animated animate__pulse">
             <img
               src="icons/icons8-bootstrap.svg"

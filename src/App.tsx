@@ -1,11 +1,11 @@
-import { BrowserRouter, Link, Switch, Route } from "react-router-dom";
+import { BrowserRouter, Switch, Route } from "react-router-dom";
 import Applications from "./components/Complex";
 import Greet from "./components/greeting";
 import FrontEnd from "./components/Interactive";
 import "./css/style.css";
 import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
 import Mini from "./components/Mini";
-import Profiles from "./components/Profiles";
+import Portfolios from "./components/Profiles";
 import Software from "./components/Software";
 import About from "./components/AboutMe";
 
@@ -21,12 +21,14 @@ export default function App() {
               <Nav className="me-auto">
                 <Nav.Link href="/games">Interactive</Nav.Link>
                 <Nav.Link href="/complex">Full-Stack</Nav.Link>
-                <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
+                <NavDropdown title="Extras" id="collasible-nav-dropdown">
                   <NavDropdown.Item href="/mini">
                     Mini-Projects
                   </NavDropdown.Item>
                   <NavDropdown.Item href="/software">Software</NavDropdown.Item>
-                  <NavDropdown.Item href="Profiles">Profiles</NavDropdown.Item>
+                  <NavDropdown.Item href="/portfolios">
+                    Portfolios
+                  </NavDropdown.Item>
                   <NavDropdown.Divider />
                   <NavDropdown.Item
                     target="_blank"
@@ -37,7 +39,7 @@ export default function App() {
                 </NavDropdown>
               </Nav>
               <Nav>
-                <Nav.Link href="/about">About Me</Nav.Link>
+                {/* <Nav.Link href="/about">About Me</Nav.Link> */}
                 {/* <Nav.Link eventKey={2} href="#memes">
                   Dank memes
                 </Nav.Link> */}
@@ -59,8 +61,8 @@ export default function App() {
             <Route exact path="/mini">
               <Mini />
             </Route>
-            <Route exact path="/profiles">
-              <Profiles />
+            <Route exact path="/portfolios">
+              <Portfolios />
             </Route>
             <Route exact path="/software">
               <Software />

@@ -25,27 +25,6 @@ body {
   margin-bottom: 2%;
 }
 
-.switchButton {
-  text-align: center;
-  padding: 1%;
-  background-color: #7f7c82;
-  color: white;
-}
-
-.buttons {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  margin-bottom: 0%;
-  margin-top: 2%;
-}
-
-.navlink {
-  color: #fceadd;
-  font-size: medium;
-  text-decoration: none;
-}
-
 .list {
   background-color: #f2e1c1;
   border: 10px double #bb8760;
@@ -132,3 +111,87 @@ body {
     color: #fceadd;
   }
 }
+
+/* 
+
+
+*/
+/* Hero section */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-flow: row;
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  width: 90%;
+  margin: 4% 10% 3% 10%;
+}
+
+.hero img {
+  height: 35vh;
+  width: 35vh;
+}
+
+.bio {
+  width: 28rem;
+  text-align: center;
+  padding: 0.625rem;
+  border-radius: 6px;
+  box-shadow: 0px 2px 15px 2px var(--primary-shadow);
+}
+
+.bio h1 {
+  margin-bottom: var(--bottom-margin);
+}
+
+.bio p {
+  line-height: var(--line-height);
+  padding: 0.3rem 0;
+}
+/* Hero section ends */
+
+/* More about */
+.more-about {
+  background-color: var(--bg-color);
+  padding: 1rem 3rem;
+  width: 100%;
+}
+
+.more-about h2 {
+  margin-bottom: var(--bottom-margin);
+  text-align: center;
+}
+
+.more-about li {
+  line-height: var(--line-height);
+  padding: 0.4rem;
+  font-size: large;
+  margin-left: 10%;
+}
+/* More about ends */
+
+/* Skills section */
+.skills {
+  max-width: 60%;
+  margin-left: 20%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 2.5rem;
+}
+
+.skill-header {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.skills-wrapper img {
+  padding: 1.25rem;
+}
+
+.icon {
+  width: 11.875rem;
+  height: 11.25rem;
+}
+/* Skills section ends */
