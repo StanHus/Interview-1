@@ -1,6 +1,6 @@
-import "../css/style.css";
+import "../../css/style.css";
 
-export default function Icons() {
+export default function Skills() {
   return (
     <div>
       <h1 className="skill-header">My Top Skills</h1>

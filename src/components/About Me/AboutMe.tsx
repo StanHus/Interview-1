@@ -1,6 +1,6 @@
-import "../css/style.css";
+import "../../css/style.css";
 import FlipCard from "./AboutMeFlip";
-import Icons from "./Skills_Icons";
+import Skills from "./Skills_Icons";
 
 export default function About() {
   return (
@@ -24,7 +24,7 @@ export default function About() {
           </p>
         </div>
       </section>
-      <Icons />
+      <Skills />
       <section className="more-about">
         <h1>More About Me</h1>
         <div className="flipcards">

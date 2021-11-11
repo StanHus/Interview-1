@@ -1,6 +1,6 @@
-import "../css/style.css";
+import "../../css/style.css";
 import { Row } from "react-bootstrap";
-import Project from "./Card";
+import Project from "../Card";
 
 export default function Games() {
   return (

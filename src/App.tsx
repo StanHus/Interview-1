@@ -1,13 +1,13 @@
 import { BrowserRouter, Switch, Route } from "react-router-dom";
-import Applications from "./components/Complex";
-import Greet from "./components/greeting";
-import FrontEnd from "./components/Interactive";
+import Applications from "./components/Body Pages/Complex";
+import Greet from "./components/Intro Page/greeting";
+import FrontEnd from "./components/Body Pages/Interactive";
 import "./css/style.css";
 import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
-import Mini from "./components/Mini";
-import Portfolios from "./components/Profiles";
-import Software from "./components/Software";
-import About from "./components/AboutMe";
+import Mini from "./components/Body Pages/Mini";
+import Portfolios from "./components/Body Pages/Profiles";
+import Software from "./components/Body Pages/Software";
+import About from "./components/About Me/AboutMe";
 
 export default function App() {
   return (

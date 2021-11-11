@@ -1,5 +1,5 @@
 import { Fragment } from "react";
-import "../css/style.css";
+import "../../css/style.css";
 
 export default function Greet() {
   return (
