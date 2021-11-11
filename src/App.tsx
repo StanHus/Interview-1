@@ -40,9 +40,6 @@ export default function App() {
               </Nav>
               <Nav>
                 <Nav.Link href="/about">About Me</Nav.Link>
-                {/* <Nav.Link eventKey={2} href="#memes">
-                  Dank memes
-                </Nav.Link> */}
               </Nav>
             </Navbar.Collapse>
           </Container>
