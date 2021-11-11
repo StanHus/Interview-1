@@ -195,3 +195,76 @@ body {
   height: 11.25rem;
 }
 /* Skills section ends */
+
+/* cards section start */
+
+.flip-card {
+  background-color: transparent;
+  width: 40vh;
+  height: 40vh;
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+  margin: 2vh;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front {
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-front {
+  background-color: grey;
+  color: white;
+  transform: rotateY(180deg);
+}
+
+.flipcards {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 80%;
+  margin-left: 10%;
+}
+
+.flip-link {
+  text-decoration: none;
+  color: white;
+  padding: 0.5em 0.5em;
+  background: goldenrod;
+  cursor: pointer;
+}
+
+.flip-link:hover {
+  background-color: rgb(96, 96, 96);
+  color: white;
+}
+
+.flip-card p {
+  font-size: 90%;
+}
