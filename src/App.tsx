@@ -2,30 +2,49 @@ import { BrowserRouter, Link, Switch, Route } from "react-router-dom";
 import Applications from "./components/Complex";
 import Greet from "./components/greeting";
 import FrontEnd from "./components/Interactive";
-import Extras from "./components/Extras";
 import "./css/style.css";
+import { Navbar, Container, Nav, NavDropdown } from "react-bootstrap";
+import Mini from "./components/Mini";
+import Profiles from "./components/Profiles";
+import Software from "./components/Software";
+import About from "./components/AboutMe";
 
 export default function App() {
   return (
     <div className="body">
       <BrowserRouter>
-        <nav className="buttons">
-          <button className="switchButton">
-            <Link className="navlink" to="/games">
-              Interactive
-            </Link>
-          </button>
-          <button className="switchButton">
-            <Link className="navlink" to="/complex">
-              Full-Stack
-            </Link>
-          </button>
-          <button className="switchButton">
-            <Link className="navlink" to="/extra">
-              Extras
-            </Link>
-          </button>
-        </nav>
+        <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
+          <Container>
+            <Navbar.Brand>Portfolio Website</Navbar.Brand>
+            <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+            <Navbar.Collapse id="responsive-navbar-nav">
+              <Nav className="me-auto">
+                <Nav.Link href="/games">Interactive</Nav.Link>
+                <Nav.Link href="/complex">Full-Stack</Nav.Link>
+                <NavDropdown title="Dropdown" id="collasible-nav-dropdown">
+                  <NavDropdown.Item href="/mini">
+                    Mini-Projects
+                  </NavDropdown.Item>
+                  <NavDropdown.Item href="/software">Software</NavDropdown.Item>
+                  <NavDropdown.Item href="Profiles">Profiles</NavDropdown.Item>
+                  <NavDropdown.Divider />
+                  <NavDropdown.Item
+                    target="_blank"
+                    href="https://drive.google.com/file/d/1eIkTLVctqYR4fWcAh18Op5B1tjd_w3oz/view"
+                  >
+                    View CV
+                  </NavDropdown.Item>
+                </NavDropdown>
+              </Nav>
+              <Nav>
+                <Nav.Link href="/about">About Me</Nav.Link>
+                {/* <Nav.Link eventKey={2} href="#memes">
+                  Dank memes
+                </Nav.Link> */}
+              </Nav>
+            </Navbar.Collapse>
+          </Container>
+        </Navbar>
         <main>
           <Switch>
             <Route exact path="/">
@@ -37,8 +56,20 @@ export default function App() {
             <Route exact path="/complex">
               <Applications />
             </Route>
+            <Route exact path="/mini">
+              <Mini />
+            </Route>
+            <Route exact path="/profiles">
+              <Profiles />
+            </Route>
+            <Route exact path="/software">
+              <Software />
+            </Route>
             <Route exact path="/extra">
-              <Extras />
+              <Mini />
+            </Route>
+            <Route exact path="/about">
+              <About />
             </Route>
           </Switch>
         </main>
