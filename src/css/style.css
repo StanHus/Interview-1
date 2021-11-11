@@ -148,6 +148,7 @@ body {
 .bio p {
   line-height: var(--line-height);
   padding: 0.3rem 0;
+  font-size: 120%;
 }
 /* Hero section ends */
 
@@ -158,9 +159,11 @@ body {
   width: 100%;
 }
 
-.more-about h2 {
+.more-about h1 {
   margin-bottom: var(--bottom-margin);
   text-align: center;
+  margin-bottom: 3%;
+  margin-top: 5%;
 }
 
 .more-about li {
@@ -173,8 +176,8 @@ body {
 
 /* Skills section */
 .skills {
-  max-width: 60%;
-  margin-left: 20%;
+  max-width: 90%;
+  margin-left: 5%;
   display: flex;
   justify-content: space-between;
   text-align: center;
@@ -200,10 +203,12 @@ body {
 
 .flip-card {
   background-color: transparent;
-  width: 40vh;
-  height: 40vh;
+  width: 39vh;
+  height: 39vh;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
-  margin: 2vh;
+  margin: 1vh;
+  border: 10px;
+  border-style: inset;
 }
 
 /* This container is needed to position the front and back side */
@@ -231,15 +236,11 @@ body {
   backface-visibility: hidden;
 }
 
-/* Style the front side (fallback if image is missing) */
-.flip-card-front {
-  color: black;
-}
-
 /* Style the back side */
 .flip-card-front {
   background-color: grey;
   color: white;
+  display: grid;
   transform: rotateY(180deg);
 }
 
@@ -266,5 +267,5 @@ body {
 }
 
 .flip-card p {
-  font-size: 90%;
+  font-size: 100%;
 }

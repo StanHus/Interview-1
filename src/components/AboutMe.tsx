@@ -1,5 +1,6 @@
 import "../css/style.css";
 import FlipCard from "./AboutMeFlip";
+import Icons from "./Skills_Icons";
 
 export default function About() {
   return (
@@ -12,7 +13,7 @@ export default function About() {
           className="hero-img"
         />
         <div className="bio animate__animated animate__shakeX">
-          <h2 className="bio-title">About Me</h2>
+          <h1 className="bio-title">About Me</h1>
           <p className="bio-text">
             Recent technical leadership graduate coding full stack app
             development using React.ts, HTML, CSS, and PostgreSQL looking for an
@@ -23,55 +24,9 @@ export default function About() {
           </p>
         </div>
       </section>
-
-      <h2 className="skill-header">My Top Skills</h2>
-      <section className="skills" id="skills">
-        <div className="skills-wrapper">
-          <div className="first-set animate__animated animate__pulse">
-            <img
-              src="https://i.ibb.co/j5FHCQM/pngaaa-com-2507896.png"
-              alt=""
-              loading="lazy"
-              className="icon icon-card"
-            />
-
-            <img
-              src="icons/icons8-css3.svg"
-              alt=""
-              loading="lazy"
-              className="icon icon-card"
-            />
-            <img
-              src="icons/icons8-javascript.svg"
-              alt=""
-              loading="lazy"
-              className="icon icon-card"
-            />
-          </div>
-          <div className="second-set animate__animated animate__pulse">
-            <img
-              src="icons/icons8-bootstrap.svg"
-              alt=""
-              loading="lazy"
-              className="icon icon-card"
-            />
-            <img
-              src="icons/icons8-react-native.svg"
-              alt=""
-              loading="lazy"
-              className="icon icon-card"
-            />
-            <img
-              src="icons/icons8-git.svg"
-              alt=""
-              loading="lazy"
-              className="icon icon-card"
-            />
-          </div>
-        </div>
-      </section>
+      <Icons />
       <section className="more-about">
-        <h2>More About Me</h2>
+        <h1>More About Me</h1>
         <div className="flipcards">
           <FlipCard
             title="Economics Graduate"
@@ -89,7 +44,6 @@ export default function About() {
             link="https://academy.tech"
             linkLabel="Academy.tech"
           />
-
           <FlipCard
             title="IMC Holder"
             subtitle="Level 4 Qualification by CFA UK"
@@ -107,6 +61,14 @@ export default function About() {
             image="https://i.ibb.co/PMXsS1W/favpng-people-running.png"
             link="https://www.justgiving.com/fundraising/stan-hus"
             linkLabel="Donations"
+          />
+          <FlipCard
+            title="Dog Dad"
+            subtitle="A proud owner of the goodest boy"
+            text="At this point, I am not even surprised my dog has more Instagram followers than me"
+            image="https://i.ibb.co/wz7CxSG/photo1636657675.jpg"
+            link="https://www.instagram.com/teo_thechi/?hl=en"
+            linkLabel="His Instagram"
           />
           <FlipCard
             title="Chess Player"

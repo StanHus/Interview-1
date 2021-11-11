@@ -17,14 +17,14 @@ export default function FlipCard({
   linkLabel,
   smallImage,
 }: IProps) {
-  let width = "250px";
-  let height = "250px";
+  let width = "100%";
+  let height = "100%";
   let margin = "0px";
 
   if (smallImage) {
-    width = "150px";
-    height = "150px";
-    margin = "50px";
+    width = "60%";
+    height = "60%";
+    margin = "20%";
   }
   return (
     <div className="flip-card">
