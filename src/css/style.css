@@ -17,26 +17,7 @@ body {
   left: 0px;
 }
 
-.question {
-  text-align: center;
-  font-size: xx-large;
-  color: #480e0e;
-  margin-top: 4%;
-  margin-bottom: 2%;
-}
-
-.list {
-  background-color: #f2e1c1;
-  border: 10px double #bb8760;
-  border-radius: 35px;
-  color: #480e0e;
-  margin-left: 20%;
-  width: 60%;
-  text-align: center;
-  min-height: 80%;
-  font-style: canela;
-  padding: 2%;
-}
+/* Intro page section start */
 
 .avatar {
   width: 30%;
@@ -58,6 +39,7 @@ body {
   font-size: xx-large;
   text-align: center;
 }
+/* Intro page section end  */
 
 .project {
   background-color: #f2e1c1;
@@ -289,7 +271,3 @@ body {
 }
 
 /*  Social Icons section end*/
-
-/* Intro page section start */
-
-/* Intro page section end  */
