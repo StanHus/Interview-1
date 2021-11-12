@@ -33,7 +33,12 @@ export default function FlipCard({
           <h3>{title}</h3>
           <p>{subtitle}</p>
           <p>{text}</p>
-          <a className="flip-link" href={link}>
+          <a
+            className="flip-link"
+            href={link}
+            rel="noopener noreferrer"
+            target="_blank"
+          >
             {linkLabel}
           </a>
         </div>
