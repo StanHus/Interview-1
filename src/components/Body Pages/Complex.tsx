@@ -17,7 +17,7 @@ export default function Applications() {
             special={true}
           />
           <Project
-            title="Battle Royale"
+            title="Elimination Tournament"
             text="I love elimination-tournaments so much that I was spending way too much time in excel drawing brackets. Being a developer, I decided to automate the process!"
             points="React, PostreSQL, TS, CSS"
             image="https://i.ibb.co/jGCst1t/image-2021-11-13-152117.png"
