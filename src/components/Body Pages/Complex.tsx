@@ -12,9 +12,16 @@ export default function Applications() {
             title="Training Routine"
             text="App for tracking training, able to accept data, analyse it, provide insights, and illustrate the findings. Built-in authentication using Firebase"
             points="React, Auth, PostreSQL, TS"
-            image="https://i.ibb.co/ZfkMLMP/training.png"
+            image="https://i.ibb.co/zsGf4bd/image.png"
             link="https://training-routine.netlify.app"
             special={true}
+          />
+          <Project
+            title="Battle Royale"
+            text="I love elimination-tournaments so much that I was spending way too much time in excel drawing brackets. Being a developer, I decided to automate the process!"
+            points="React, PostreSQL, TS, CSS"
+            image="https://i.ibb.co/jGCst1t/image-2021-11-13-152117.png"
+            link="https://picker-game.netlify.app"
           />
           <Project
             title="CRUK Campaign"
