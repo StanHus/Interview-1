@@ -5,6 +5,7 @@
   right: 0px;
   bottom: 0px;
   left: 0px;
+  min-height: 100vh;
 }
 
 html,
@@ -114,8 +115,8 @@ body {
   flex-flow: row;
   flex-wrap: wrap;
   gap: 2.5rem;
-  width: 90%;
-  margin: 4% 10% 3% 10%;
+  width: 100%;
+  margin: 4% 0% 3% 0%;
 }
 
 .hero img {
@@ -188,7 +189,7 @@ body {
 .icon {
   width: auto;
   margin: 1%;
-  height: 11.25rem;
+  height: 20.25vh;
 }
 /* Skills section ends */
 
@@ -196,7 +197,7 @@ body {
 
 .flip-card {
   background-color: transparent;
-  width: 39vh;
+  width: 40vh;
   height: 39vh;
   perspective: 1000px; /* Remove this if you don't want the 3D effect */
   margin: 1vh;
@@ -241,7 +242,7 @@ body {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   width: 80%;
   margin-left: 10%;
 }
