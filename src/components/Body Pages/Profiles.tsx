@@ -1,13 +1,11 @@
 import "../../css/style.css";
-import { Row } from "react-bootstrap";
 import Project from "../Utils/Card";
 
 export default function Portfolios() {
   return (
     <div>
       <h1 className="question">Portfolios</h1>
-      <section className="cards">
-        <Row xs={1} md={2} className="g-4">
+      <section className="projects-container">
           <Project
             title="CodeWars Profile"
             text="A coding practice site profile. Most of the exercises solved in JS"
@@ -22,7 +20,7 @@ export default function Portfolios() {
             image="https://i.ibb.co/dM1yVbK/image-2021-11-10-180227.png"
             link="https://portfolio-stan.netlify.app"
           />
-        </Row>
+
       </section>
     </div>
   );

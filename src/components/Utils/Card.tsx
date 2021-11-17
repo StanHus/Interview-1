@@ -1,6 +1,3 @@
-import { Card, Col } from "react-bootstrap";
-import "bootstrap/dist/css/bootstrap.min.css";
-
 interface IProps {
   title: string;
   text: string;
@@ -20,7 +17,6 @@ export default function Project({
 }: IProps) {
   let titleStyle = {
     fontSize: "30px",
-    color: "#fceadd",
     textDecoration: "none",
     cursor: "pointer",
     animation: "",
@@ -33,28 +29,30 @@ export default function Project({
 
   return (
     <div>
-      <Col>
-        <Card className="card" text="light" bg="secondary" border="secondary">
-          <Card.Body>
-            <Card.Title style={titleStyle} onClick={() => window.open(link)}>
-              {title}
-            </Card.Title>
-            <Card.Text style={{ fontSize: "15px" }}>
-              <i>{text}</i>
-            </Card.Text>
-            <Card.Text>
+      <div className="project-card">
+        <div className="face face1">
+          <div className="content">
+            <h2 style={titleStyle}>{title}</h2>
+            <br />
+            <p>
               Technologies: <strong>{points}</strong>
-            </Card.Text>
-          </Card.Body>
-          <Card.Img
-            onClick={() => window.open(link)}
-            className="image"
-            variant="bottom"
-            src={image}
-            style={{ cursor: "pointer" }}
-          />
-        </Card>
-      </Col>
+            </p>
+            <p style={{ minHeight: "10vh", alignItems: "center" }}>
+              <i>{text}</i>
+            </p>
+          </div>
+        </div>
+        <div className="face face2">
+          <div className="content">
+            <img
+              alt={title + " image"}
+              style={{ cursor: "pointer" }}
+              src={image}
+              className="project-image"
+            ></img>
+          </div>
+        </div>
+      </div>
     </div>
   );
 }

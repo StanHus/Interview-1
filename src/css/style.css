@@ -44,24 +44,9 @@ body {
 
 .question {
   text-align: center;
-  font-size: xx-large;
+  font-size: 6vh;
   color: #480e0e;
-  margin-top: 4%;
-  margin-bottom: 2%;
-}
-
-.project {
-  background-color: #f2e1c1;
-  border: 10px double #bb8760;
-  border-radius: 35px;
-  color: #480e0e;
-  margin-left: 15%;
-  width: 60%;
-  font-size: xx-large;
-  text-align: center;
-  min-height: 80%;
-  font-style: canela;
-  padding: 5%;
+  margin-top: 3%;
 }
 
 .pplink {
@@ -82,7 +67,6 @@ body {
 }
 
 .image {
-  border-radius: 10px;
   max-height: 40vh;
   width: auto;
 }
@@ -93,13 +77,13 @@ body {
 
 @keyframes color-change {
   0% {
-    color: #fceadd;
+    color: goldenrod;
   }
   50% {
-    color: rgb(180, 162, 1);
+    color: rgb(246, 255, 206);
   }
   100% {
-    color: #fceadd;
+    color: goldenrod;
   }
 }
 
@@ -280,3 +264,100 @@ body {
 }
 
 /*  Social Icons section end*/
+
+/*Project section Start*/
+
+.project-image {
+  width: 100%;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+.projects-container {
+  display: flex;
+  flex-direction: row;
+  width: 90vw;
+  margin-top: 8vh;
+  margin-left: 5vw;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.project-card {
+  position: relative;
+  background-color: transparent;
+  border: transparent;
+  margin-bottom: 1%;
+}
+
+.projects-container .project-card .project-icon {
+  width: 100%;
+  height: 100%;
+  transition: 0.3s;
+  z-index: 1;
+}
+
+.projects-container .project-card .face {
+  width: 40vw;
+  min-width: 50vh;
+  height: auto;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  transition: 0.3s;
+}
+
+.projects-container .project-card .face.face1 {
+  background: rgb(122, 122, 122);
+  color: antiquewhite;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.projects-container .project-card:hover .face.face1 {
+  background: #480e0e;
+  color: antiquewhite;
+  transform: translateY(0);
+}
+
+.projects-container .project-card .face.face1 .content {
+  opacity: 1;
+  transition: 0.2s;
+  position: relative;
+}
+
+.projects-container .project-card:hover .face.face1 .content {
+  opacity: 1;
+}
+
+.projects-container .project-card .face.face2 {
+  transform: translateY(-21vh);
+  position: relative;
+  color: white;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.projects-container .project-card:hover .face.face2 {
+  transform: translateY(0);
+  background: rgb(196, 196, 196);
+  color: black;
+}
+
+.projects-container .project-card .face.face2 .content p {
+  padding: 0;
+  text-align: center;
+}
+
+.projects-container .project-card .face.face2 .content h3 {
+  margin: 0 0 0 0;
+  padding: 0;
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+}
+
+/*Project section End*/

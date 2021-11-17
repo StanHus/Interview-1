@@ -14,40 +14,40 @@ import FadeIn from "react-fade-in";
 export default function App() {
   return (
     <div className="body">
-      <FadeIn transitionDuration={1000} delay={0}>
-        <BrowserRouter>
-          <NavBar />
-          <main>
-            <Icons />
-            <Switch>
-              <Route exact path="/">
+      <BrowserRouter>
+        <NavBar />
+        <main>
+          <Icons />
+          <Switch>
+            <Route exact path="/">
+              <FadeIn transitionDuration={1000} delay={0}>
                 <Greet />
-              </Route>
-              <Route exact path="/games">
-                <FrontEnd />
-              </Route>
-              <Route exact path="/complex">
-                <Applications />
-              </Route>
-              <Route exact path="/mini">
-                <Mini />
-              </Route>
-              <Route exact path="/portfolios">
-                <Portfolios />
-              </Route>
-              <Route exact path="/software">
-                <Software />
-              </Route>
-              <Route exact path="/extra">
-                <Mini />
-              </Route>
-              <Route exact path="/about">
-                <About />
-              </Route>
-            </Switch>
-          </main>
-        </BrowserRouter>
-      </FadeIn>
+              </FadeIn>
+            </Route>
+            <Route exact path="/games">
+              <FrontEnd />
+            </Route>
+            <Route exact path="/complex">
+              <Applications />
+            </Route>
+            <Route exact path="/mini">
+              <Mini />
+            </Route>
+            <Route exact path="/portfolios">
+              <Portfolios />
+            </Route>
+            <Route exact path="/software">
+              <Software />
+            </Route>
+            <Route exact path="/extra">
+              <Mini />
+            </Route>
+            <Route exact path="/about">
+              <About />
+            </Route>
+          </Switch>
+        </main>
+      </BrowserRouter>
     </div>
   );
 }
