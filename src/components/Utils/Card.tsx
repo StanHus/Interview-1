@@ -32,7 +32,9 @@ export default function Project({
       <div className="project-card">
         <div className="face face1">
           <div className="content">
-            <h2 style={titleStyle}>{title}</h2>
+            <h2 onClick={() => window.open(link)} style={titleStyle}>
+              {title}
+            </h2>
             <br />
             <p>
               Technologies: <strong>{points}</strong>
@@ -45,6 +47,7 @@ export default function Project({
         <div className="face face2">
           <div className="content">
             <img
+              onClick={() => window.open(link)}
               alt={title + " image"}
               style={{ cursor: "pointer" }}
               src={image}
