@@ -38,12 +38,17 @@ export default function Skills() {
               className="icon icon-card"
             />
             <img
+              src=" https://i.ibb.co/j3vJnbQ/pngfind-com-js-logo-png-6833893.png"
+              alt=""
+              loading="lazy"
+              className="icon icon-card"
+            />
+            <img
               src="https://i.ibb.co/HpnVxPn/html.png"
               alt=""
               loading="lazy"
               className="icon icon-card"
             />
-
             <img
               src="https://i.ibb.co/1LCvFc8/css.png"
               alt=""
@@ -52,6 +57,13 @@ export default function Skills() {
             />
             <img
               src="https://i.ibb.co/JsZwB8y/js.png"
+              alt=""
+              loading="lazy"
+              className="icon icon-card"
+            />
+
+            <img
+              src="https://i.ibb.co/VQwC9HH/Daco-4375878.png"
               alt=""
               loading="lazy"
               className="icon icon-card"
