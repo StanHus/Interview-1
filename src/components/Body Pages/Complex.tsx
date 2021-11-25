@@ -21,13 +21,6 @@ export default function Applications() {
           image="https://i.ibb.co/G2kD24M/image.png"
           link="https://picker-game.netlify.app"
         />
-        <Project
-          title="CRUK Campaign"
-          text="The result of a 1-working day input as a technical take-home test. Features a forum and a quiz. Needs improvement in CSS"
-          points="React, PostreSQL, TS"
-          image="https://i.ibb.co/s3HYdFg/cruk.png"
-          link="https://cruk-campaign.netlify.app"
-        />
       </section>
     </div>
   );

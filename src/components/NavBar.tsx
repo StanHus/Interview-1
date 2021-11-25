@@ -18,7 +18,7 @@ export default function NavBar() {
               <NavDropdown.Divider />
               <NavDropdown.Item
                 target="_blank"
-                href="https://drive.google.com/file/d/17qvk1JsVjeQvyWprR4AyJ8I_ycsSUiJz/view"
+                href="https://drive.google.com/file/d/1NHETkzX3EDwQtOvRRUudja8dKhA86TT0/view?usp=sharing"
               >
                 View CV
               </NavDropdown.Item>
