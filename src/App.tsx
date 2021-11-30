@@ -5,7 +5,7 @@ import FrontEnd from "./components/Body Pages/Interactive";
 import "./css/style.css";
 import Mini from "./components/Body Pages/Mini";
 import Portfolios from "./components/Body Pages/Profiles";
-import Software from "./components/Body Pages/Software";
+import Backend from "./components/Body Pages/Backend";
 import About from "./components/About Me/Main_page";
 import Icons from "./components/Utils/Social_Icons";
 import NavBar from "./components/NavBar";
@@ -36,8 +36,8 @@ export default function App() {
             <Route exact path="/portfolios">
               <Portfolios />
             </Route>
-            <Route exact path="/software">
-              <Software />
+            <Route exact path="/backend">
+              <Backend />
             </Route>
             <Route exact path="/extra">
               <Mini />

@@ -11,8 +11,8 @@ export default function NavBar() {
           <Nav className="me-auto">
             <Nav.Link href="/games">Interactive</Nav.Link>
             <Nav.Link href="/complex">Full-Stack</Nav.Link>
+            <Nav.Link href="/backend">Backend</Nav.Link>
             <NavDropdown title="Extras" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="/software">Software</NavDropdown.Item>
               <NavDropdown.Item href="/portfolios">Portfolios</NavDropdown.Item>
               <NavDropdown.Item href="/mini">Mini-Projects</NavDropdown.Item>
               <NavDropdown.Divider />
