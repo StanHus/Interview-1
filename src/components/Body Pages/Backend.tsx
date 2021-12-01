@@ -13,6 +13,13 @@ export default function Backend() {
           image="https://i.ibb.co/F0f98tj/crawler.png"
           link="https://github.com/StanHus/Python_Web_Crawler"
         />
+        <Project
+          title="Anagram Checker"
+          text="A restful api, which produces all the anagrams to the word given as a parameter"
+          points="Node.js, TS"
+          image="https://i.ibb.co/6Rw98WT/image-2021-12-01-152420.png"
+          link="https://github.com/StanHus/anagrams_check_api"
+        />
       </section>
     </div>
   );
