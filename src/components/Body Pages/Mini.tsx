@@ -8,7 +8,7 @@ export default function Mini() {
       <section className="projects-container">
         <Project
           title="Tech Test, Nov, 3 hours"
-          text="November 2021 take-home tech assessment. Took me 3 hours to complete. Completely operational full-stack project. A visibly considerable step-up from the previous tech test"
+          text="November 2021 take-home tech assessment. 3 hours to complete. Completely operational full-stack project. A visible step-up from the previous tech test (P.S. I got the job!!!!)"
           points="React, Node, TS, PostgreSQL"
           image="https://i.ibb.co/3cLHjnF/image-2021-11-25-134004.png"
           link="https://tech-test-beauhurst.netlify.app"
@@ -27,13 +27,6 @@ export default function Mini() {
           points="React, APIs, TS"
           image="https://i.ibb.co/QHQqDQd/TV-shows.png"
           link="https://tv-shows-stan.netlify.app"
-        />
-        <Project
-          title="Link Shortner"
-          text="One of my first full-stack projects, developed in a team of 2"
-          points="React, PostreSQL, TS"
-          image="https://i.ibb.co/XYGpDRk/linkshortner.png"
-          link="https://brushland-link-shortener.netlify.app"
         />
       </section>
     </div>

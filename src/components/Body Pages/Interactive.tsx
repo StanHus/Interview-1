@@ -6,7 +6,7 @@ export default function Games() {
     <div>
       <h1 className="question">Games and Interactive Sketches</h1>
       <section className="projects-container">
-        <Project
+        {/* <Project
           title="3D Car Game"
           text="Gas pedal (Shift) to the floor and lets go! Cool little game with multiple common racing game mechanics"
           points="JS, p5, OpenProcessing"
@@ -20,7 +20,7 @@ export default function Games() {
           points="JS, p5, OpenProcessing"
           image="https://i.ibb.co/WnVXqLr/image-2021-11-09-151915.png"
           link="https://openprocessing.org/sketch/1345775"
-        />
+        /> */}
         <Project
           title="Tic-Tac-Toe"
           text="Game vs computer. For now, its my own simple TS algorithm behind computer moves. Planning to make the computer smarter"

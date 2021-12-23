@@ -15,12 +15,11 @@ export default function About() {
         <div className="bio animate__animated animate__shakeX">
           <h1 className="bio-title">About Me</h1>
           <p className="bio-text">
-            Recent technical leadership graduate coding full stack app
-            development using React.ts, HTML, CSS, and PostgreSQL looking for an
-            engineering role in a fast paced and collaborative growth-oriented
-            environment. With extensive experience creating user friendly
-            projects and working in multidisciplinary teams I am excited to
-            continue my progress into software engineering.
+            A junior fullstack software engineer working with Django and Vue.
+            Extensive experience creating user friendly projects in React and
+            Node in Typescript and working in multidisciplinary teams. A
+            technology and leadership graduate with professional training in
+            both.
           </p>
         </div>
       </section>
